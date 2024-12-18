@@ -1,0 +1,39 @@
+.om {
+  height: 91vh;
+  background: #031540 ;
+
+  
+}
+.conteiner{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.conteiner .content .quite{
+  color: rgb(0, 255, 0);
+  padding: 0 40px;
+  font-size: 60px;;
+}
+.conteiner .content .h1{
+  color: rgb(250, 242, 0);
+  padding: 0 40px;
+  font-size: 40px;
+}
+.om .conteiner .content{
+  width: 50%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 50px;
+}
+.img_content img {
+  height: 800px;
+  width: 800px;
+  background-size: cover;
+  background: center;
+  background: center;
+}

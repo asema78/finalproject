@@ -1,0 +1,131 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+.up_head {
+ 
+  width: 100%;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #163889;
+  color: #ffffff;
+}
+.up_head .conteiner {
+  width: 93%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.up_head .conteiner .content {
+  width: 20%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.up_head .conteiner .content .nomer {
+  font-size: 18px;
+}
+.conteiner .for_use {
+  border-radius: 10px;
+  padding: 5px 15px;
+  border: 1px solid #ffffff;
+  background-color: #ffffff;
+}
+.conteiner .for_use a {
+  text-decoration: none;
+  font-size: 20px;
+  color: #000;
+}
+.conteiner .for_use a:hover {
+  padding: 0 5px;
+}
+/* Стили для общего хедера */
+header {
+  background-color: #1a1a1a; /* Цвет фона */
+  color: #fff; /* Цвет текста */
+  padding: 10px 0; /* Внутренние отступы сверху и снизу */
+  font-family: Arial, sans-serif;
+}
+
+/* Общий контейнер хедера */
+.header {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.head_conteiner {
+  width: 90%;
+  max-width: 1200px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Логотип */
+.logo a {
+  color: #ffcc00; /* Желтый цвет для текста */
+  font-size: 34px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.logo a:hover {
+  color: #fff; /* При наведении текст становится белым */
+  transition: color 0.3s ease;
+}
+
+/* Меню */
+.menu {
+  display: flex;
+}
+
+.menus {
+  display: flex;
+  gap: 20px; /* Отступы между пунктами меню */
+}
+
+.menus a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 28px;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.menus a:hover {
+  color: #ffcc00; /* Желтый цвет при наведении */
+}
+
+/* Адаптивность для маленьких экранов */
+@media (max-width: 768px) {
+  .head_conteiner {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .menus {
+    flex-direction: column;
+    gap: 10px;
+  }
+}
+
+footer{
+  width: 100%;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #1a1a1a;
+}
+.footer {
+  color: #fff;
+  font-size: 30px;
+}
